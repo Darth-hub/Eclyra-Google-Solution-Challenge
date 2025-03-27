@@ -10,7 +10,7 @@ Eclyra is leading the way in creating a sustainable and profitable solution for 
 
 ## Table of content
 
-1. [Getting Started](#Getting Started)
+1. [Getting Started](#getting-started)
 
 ## Getting Started
 
