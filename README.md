@@ -12,7 +12,31 @@ Eclyra is leading the way in creating a sustainable and profitable solution for 
 
 ### Installation
 
-To set up Eclyra locally, follow these steps:
+- To set up Eclyra's frontend locally, follow these steps:
 
-```print("Hello, World!")
+```Clone the repository:
+git clone https://github.com/simple2226/gsc_frontend.git
+cd gsc_frontend
+```
+
+```Install Dependencies:
+npm install
+npm run dev
+```
+
+- To set up Eclyra's backend locally, follow these steps:
+
+## Configuration
+
+
+
+
+
+
+
+
+
+
+
+
 
