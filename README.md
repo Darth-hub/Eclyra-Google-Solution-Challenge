@@ -107,6 +107,8 @@ npm run start
 ```
 
 ## Key Highlights
+###Authentication
+
 
 ## Tech Stack
 
