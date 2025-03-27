@@ -11,10 +11,19 @@ Eclyra is leading the way in creating a sustainable and profitable solution for 
 ## Table of content
 
 1. [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
+  - [Usage](#Usage)
+2. [Key Highlights](#key-highlights)
+3. [Tech Stack](#tech-stack)
+  - [Frontend](#frontend)
+4. 
 
 ## Getting Started
 
 ### Installation
+
+#### Frontend
 
 To set up Eclyra's frontend locally, follow these steps:
 
@@ -29,6 +38,8 @@ cd gsc_frontend
 npm install
 ```
 
+#### Backend
+
 To set up Eclyra's backend locally, follow these steps:
 
 1. Clone the repository:
@@ -42,7 +53,7 @@ cd gsc_backend
 npm install
 ```
 
-## Configuration
+### Configuration
 
 To initialise and configure, follow these steps:
 
@@ -76,7 +87,7 @@ SMTP_PASS= your-smtp-pass
 DATABASE_URL= your-database-url
 ```
 
-## Usage
+### Usage
 
  1. Run the development server for the frontend:
 
