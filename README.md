@@ -10,7 +10,7 @@ Eclyra is leading the way in creating a sustainable and profitable solution for 
 
 ## Table of content
 
-1. [Getting Started](#GettingStarted)
+1. [Getting Started](#Getting Started)
 
 ## Getting Started
 
@@ -31,18 +31,20 @@ npm install
 
 To set up Eclyra's backend locally, follow these steps:
 
-```Clone the repository:
+1. Clone the repository:
+```
 git clone https://github.com/simple2226/gsc_backend.git
 cd gsc_backend
 ```
 
-```Install Dependencies:
+2. Install Dependencies:
+```
 npm install
 ```
 
 ## Configuration
 
-- To initialise and configure , follow these steps:
+- To initialise and configure, follow these steps:
 
   1. Create a firebase project here.
 
@@ -51,7 +53,7 @@ npm install
   3. Create a .env file in the project root of your frontend and add your Firebase config:
 
 ```
-VITE_BACKEND_URL = your-local-api-url
+VITE_BACKEND_URL= your-local-api-url
 VITE_GOOGLE_MAPS_API_KEY = your-google-map-api
 VITE_FIREBASE_API_KEY= your-firebase-api-key
 VITE_FIREBASE_AUTH_DOMAIN= your-auth-domain
@@ -66,7 +68,7 @@ VITE_FIREBASE_MEASUREMENT_ID= your-firebase-measurement-id
  4. Create a .env file in the project root of your backend and add your Firebase config:
 
 ```
-PORT = your-local-port
+PORT= your-local-port
 SMTP_HOST= your-smtp-host
 SMTP_PORT= your-smtp-port
 SMTP_USER= your-smtp-user
@@ -141,6 +143,8 @@ Eclyra is built using the following technologies:
 To set up your development environment, refer to the Getting Started section.
 
 Thank you to the communities behind these technologies for making EcoBloom possible!
+
+## Licence
 
 
 
