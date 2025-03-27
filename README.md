@@ -6,7 +6,7 @@ Backend Repository Link: [Eclyra Backend] (https://github.com/simple2226/gsc_bac
 
 Overview  
 
-***
+---
 
 Eclyra is leading the way in creating a sustainable and profitable solution for both individuals and businesses. Our platform bridges the gap between scrap sellers and scrap collectors, ensuring that recyclable materials don’t go to waste but instead contribute to a circular economy.
 
