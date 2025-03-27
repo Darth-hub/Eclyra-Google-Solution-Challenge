@@ -12,18 +12,23 @@ Eclyra is leading the way in creating a sustainable and profitable solution for 
 
 1. [Getting Started](#getting-started)
       - [Installation](#installation)
-  - [Configuration](#configuration)
-  - [Usage](#Usage)
+      - [Configuration](#configuration)
+      - [Usage](#Usage)
 2. [Key Highlights](#key-highlights)
 3. [Tech Stack](#tech-stack)
-  - [Frontend](#frontend)
-4. 
+      - [Frontend](#frontend)
+      - [Backend](#backend)
+      - [AI/Chat-Bot](#ai/chat-bot)
+      - [APIs](#apis)
+      - [Additional Tools](#additional-tools)
+4. [Development Environment](#development-environment)
+5. [Licences](#licence)
 
 ## Getting Started
 
 ### Installation
 
-#### Frontend
+#### Starting Frontend
 
 To set up Eclyra's frontend locally, follow these steps:
 
@@ -38,7 +43,7 @@ cd gsc_frontend
 npm install
 ```
 
-#### Backend
+#### Starting Backend
 
 To set up Eclyra's backend locally, follow these steps:
 
@@ -131,7 +136,7 @@ Eclyra is built using the following technologies:
 
 - **Node.js Express** : Node.js Express is a lightweight and fast web framework for Node.js. It provides easy routing, middleware support, and a flexible API to build RESTful services.
 
-### AI/Chat Bot 
+### AI/Chat-Bot 
 
 - **Vertex AI and DialogFlow** : AI chatbot on Eclyra enhances user experience by guiding scrap sellers and collectors, answering queries instantly, assisting with pickups, and providing recycling insights.
 
@@ -155,7 +160,7 @@ To set up your development environment, refer to the Getting Started section.
 
 Thank you to the communities behind these technologies for making EcoBloom possible!
 
-## Licence
+## Licences
 
 
 
