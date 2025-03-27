@@ -44,7 +44,7 @@ npm install
 
 ## Configuration
 
-- To initialise and configure, follow these steps:
+To initialise and configure, follow these steps:
 
   1. Create a firebase project here.
 
