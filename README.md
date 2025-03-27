@@ -16,18 +16,20 @@ Eclyra is leading the way in creating a sustainable and profitable solution for 
 
 ### Installation
 
-- To set up Eclyra's frontend locally, follow these steps:
+To set up Eclyra's frontend locally, follow these steps:
 
-```Clone the repository:
+1. Clone the repository:
+```
 git clone https://github.com/simple2226/gsc_frontend.git
 cd gsc_frontend
 ```
 
-```Install Dependencies:
+2. Install Dependencies:
+```
 npm install
 ```
 
-- To set up Eclyra's backend locally, follow these steps:
+To set up Eclyra's backend locally, follow these steps:
 
 ```Clone the repository:
 git clone https://github.com/simple2226/gsc_backend.git
@@ -134,7 +136,7 @@ Eclyra is built using the following technologies:
 
 - **Google Cloud** : For hosting our website, cloud storage, authentication, and Maps.
 
-### Development Environment
+## Development Environment
 
 To set up your development environment, refer to the Getting Started section.
 
