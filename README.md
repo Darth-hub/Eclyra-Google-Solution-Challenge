@@ -51,13 +51,13 @@ The project is built using:
 
 ### **2️⃣ Scrap Selling & Pickup**
 - **Order Placement**: Users can schedule scrap pickups via chatbot or UI.
-- **Real-Time Pricing**: Dynamic scrap pricing based on market rates on our Scrap Rate page.
-- **Multi-Industry Selling**: ScrapPickers can sell scrap to multiple industries instead of a single dealer ensuring higher wages.
+- **Real-Time Pricing**: Dynamic scrap pricing based on market rates.
+- **Multi-Industry Selling**: Users can sell scrap to multiple industries instead of a single dealer.
 
 ### **3️⃣ AI-Powered Chatbot**
 - **Order Assistance**: Users can place orders directly via chatbot.
 - **Instant Queries**: Answers questions about recycling, pricing, and processes.
-- **Multilingual Support**: To be added in Future. Using Google Translator, we will enable both **English and Hindi** Language support to our Users.
+- **Multilingual Support**: Handles both **English and Hindi**.
 
 ### **4️⃣ Community Engagement**
 - **Cleaning Drives**: Encourages community participation in environmental efforts.
@@ -67,9 +67,9 @@ The project is built using:
 - **Cloud-Hosted**: Deployed on **Render (backend)** and **Netlify (frontend)**.
 - **Optimized Performance**: Uses Firebase Firestore for real-time data and scalable storage.
 
-### **6️⃣ Blog Section and EclyraSearch**
-- **Blog-Section**: Users can explore insightful articles on effective recycling techniques, environmental sustainability, and waste management best practices.
-- **EclyraSearch**: A smart search feature powered by Gemini API, enabling users to quickly find answers to recycling-related queries and optimal waste disposal methods with fast and accurate responses.
+### **6️⃣ Blog Section & EclyraSearch**
+- **Blog Section**: Users can explore insightful articles on effective recycling techniques, environmental sustainability, and waste management best practices.
+- **EclyraSearch**: A smart search feature powered by **Gemini API**, enabling users to quickly find answers to recycling-related queries and optimal waste disposal methods with fast and accurate responses.
 
 ---
 
@@ -133,6 +133,17 @@ SMTP_PASS=your-smtp-pass
 DATABASE_URL=your-database-url
 ```
 
+---
+
+## 🤝 Contributors
+Eclyra wouldn't have been possible without the hard work and dedication of its team members:
+- **Ayush Ranjan** – Project Lead & ChatBot Interation & Frontend Developer
+- **Rohit Khallar** – Backend & Database Architect
+- **Ayush Kumar** – Frontend Developer
+- **Tanisha Rattan** – UI/UX Designer
+
+### **How We Came Up With This Idea**
+The team noticed firsthand how individuals and small businesses struggled with selling scrap, especially electronic waste, due to a lack of proper channels and fair pricing. Observing this issue in real life, we decided to create Eclyra—an AI-powered platform that simplifies scrap selling, ensures transparent pricing, and encourages responsible e-waste disposal. By integrating real-time pricing, chatbot assistance, and community engagement, Eclyra is set to revolutionize the waste management industry.
 ---
 
 ## 📜 License
