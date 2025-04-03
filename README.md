@@ -1,174 +1,142 @@
-# Eclyra-Google-Solution-Challenge
-Team Eclyra's project repository for GSC 2025
+# Eclyra - Google Solution Challenge 2025
 
-Frontend Repository Link: [Eclyra Frontend] (https://github.com/simple2226/gsc_frontend)  
-Backend Repository Link: [Eclyra Backend] (https://github.com/simple2226/gsc_backend)  
+Team Eclyra's project repository for the Google Solution Challenge 2025.
 
-## Overview  
+## 🔗 Repository Links
+- **Frontend Repository:** [Eclyra Frontend](https://github.com/simple2226/gsc_frontend)
+- **Backend Repository:** [Eclyra Backend](https://github.com/simple2226/gsc_backend)
+- **MVP Live Link:** [Eclyra](https://eclyra.netlify.app/)
 
-Eclyra is leading the way in creating a sustainable and profitable solution for both individuals and businesses. Our platform bridges the gap between scrap sellers and scrap collectors, ensuring that recyclable materials don’t go to waste but instead contribute to a circular economy.The project utilizes ReactJS for the frontend, Firebase for authentication, real-time updates, and hosting, Tailwind CSS for styling, and firebase-firestore for data storage.In addition, we've also integrated AI/ML into our site, by utilising an Dialogflow CX and Vertex AI allowing users to access the Eclyra eazily.
+## 🌍 Overview
+Eclyra is revolutionizing waste management by providing a sustainable and profitable platform for individuals and businesses. It bridges the gap between scrap sellers and collectors, ensuring recyclable materials contribute to a circular economy instead of being wasted. 
 
-## Table of content
+The project is built using:
+- **ReactJS** for a dynamic frontend.
+- **Firebase** for authentication, real-time updates, and hosting.
+- **Tailwind CSS** for styling.
+- **Firestore** as the database.
+- **Vertex AI & Dialogflow CX** for AI-powered chatbot integration.
 
-1. [Getting Started](#getting-started)
-      - [Installation](#installation)
-      - [Configuration](#configuration)
-      - [Usage](#Usage)
-2. [Key Highlights](#key-highlights)
-3. [Tech Stack](#tech-stack)
-      - [Frontend](#frontend)
-      - [Backend](#backend)
-      - [AI/Chat-Bot](#ai/chat-bot)
-      - [APIs](#apis)
-      - [Additional Tools](#additional-tools)
-4. [Development Environment](#development-environment)
-5. [Licences](#licence)
+---
 
-## Getting Started
+## 🛠️ Tech Stack
+### **Frontend**
+- **Vite + React**: Fast and modern frontend framework.
+- **Tailwind CSS**: Utility-first CSS for rapid UI development.
+- **Mantine UI**: Provides modern, accessible UI components.
+- **Firebase Authentication**: Secure and scalable authentication.
 
-### Installation
+### **Backend**
+- **Firebase Firestore**: NoSQL cloud database with real-time syncing.
+- **Node.js & Express.js**: Lightweight and efficient backend framework.
 
-#### Starting Frontend
+### **AI & Chatbot**
+- **Vertex AI & Dialogflow CX**: AI chatbot for assisting users with scrap pickups, answering queries, and providing recycling insights.
 
-To set up Eclyra's frontend locally, follow these steps:
+### **APIs**
+- **Google Maps API**: Enables accurate scrap pickup locations, route optimization, and real-time navigation.
+- **Gemini API**: Enhances chatbot interactions and user engagement.
 
+### **Additional Tools**
+- **NPM**: Manages project dependencies.
+- **Git & GitHub**: Version control and collaboration.
+- **Google Cloud**: Hosting, cloud storage, authentication, and Maps services.
+
+---
+
+## 🔑 Key Features
+### **1️⃣ Secure Authentication**
+- **User Registration & Login**: Firebase Authentication ensures secure access.
+- **Token-Based Authentication**: Enables protected user sessions.
+
+### **2️⃣ Scrap Selling & Pickup**
+- **Order Placement**: Users can schedule scrap pickups via chatbot or UI.
+- **Real-Time Pricing**: Dynamic scrap pricing based on market rates on our Scrap Rate page.
+- **Multi-Industry Selling**: ScrapPickers can sell scrap to multiple industries instead of a single dealer ensuring higher wages.
+
+### **3️⃣ AI-Powered Chatbot**
+- **Order Assistance**: Users can place orders directly via chatbot.
+- **Instant Queries**: Answers questions about recycling, pricing, and processes.
+- **Multilingual Support**: To be added in Future. Using Google Translator, we will enable both **English and Hindi** Language support to our Users.
+
+### **4️⃣ Community Engagement**
+- **Cleaning Drives**: Encourages community participation in environmental efforts.
+- **Reward System**: Users earn points for responsible waste disposal.
+
+### **5️⃣ Scalable & Efficient Architecture**
+- **Cloud-Hosted**: Deployed on **Render (backend)** and **Netlify (frontend)**.
+- **Optimized Performance**: Uses Firebase Firestore for real-time data and scalable storage.
+
+### **6️⃣ Blog Section and EclyraSearch**
+- **Blog-Section**: Users can explore insightful articles on effective recycling techniques, environmental sustainability, and waste management best practices.
+- **EclyraSearch**: A smart search feature powered by Gemini API, enabling users to quickly find answers to recycling-related queries and optimal waste disposal methods with fast and accurate responses.
+
+---
+
+## 🚀 Getting Started
+### **Frontend Setup**
 1. Clone the repository:
-```
-git clone https://github.com/simple2226/gsc_frontend.git
-cd gsc_frontend
-```
+   ```sh
+   git clone https://github.com/simple2226/gsc_frontend.git
+   cd gsc_frontend
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Run the development server:
+   ```sh
+   npm run dev
+   ```
 
-2. Install Dependencies:
-```
-npm install
-```
-
-#### Starting Backend
-
-To set up Eclyra's backend locally, follow these steps:
-
+### **Backend Setup**
 1. Clone the repository:
-```
-git clone https://github.com/simple2226/gsc_backend.git
-cd gsc_backend
-```
+   ```sh
+   git clone https://github.com/simple2226/gsc_backend.git
+   cd gsc_backend
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Run the backend server:
+   ```sh
+   npm run start
+   ```
 
-2. Install Dependencies:
-```
-npm install
-```
+---
 
-### Configuration
-
-To initialise and configure, follow these steps:
-
-  1. Create a firebase project here.
-
-  2. The service account key will be made available if required. Without it, you will not be able to run the Firebase Admin SDK locally.
-
-  3. Create a .env file in the project root of your frontend and add your Firebase config:
-
-```
-VITE_BACKEND_URL= your-local-api-url
-VITE_GOOGLE_MAPS_API_KEY = your-google-map-api
-VITE_FIREBASE_API_KEY= your-firebase-api-key
-VITE_FIREBASE_AUTH_DOMAIN= your-auth-domain
-VITE_FIREBASE_PROJECT_ID= your-project-id
-VITE_FIREBASE_DATABASEURL= your-database-url
-VITE_FIREBASE_STORAGE_BUCKET= your-storage-bucket
-VITE_FIREBASE_MESSAGING_SENDER_ID= your-firebase-message-sender-id
-VITE_FIREBASE_APP_ID= your firebase-app-id
-VITE_FIREBASE_MEASUREMENT_ID= your-firebase-measurement-id
+## ⚙️ Configuration
+### **Frontend Environment Variables**
+Create a `.env` file in the project root and add your Firebase config:
+```sh
+VITE_BACKEND_URL=your-local-api-url
+VITE_GOOGLE_MAPS_API_KEY=your-google-map-api
+VITE_FIREBASE_API_KEY=your-firebase-api-key
+VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
+VITE_FIREBASE_PROJECT_ID=your-project-id
+VITE_FIREBASE_DATABASE_URL=your-database-url
+VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your-firebase-message-sender-id
+VITE_FIREBASE_APP_ID=your-firebase-app-id
+VITE_FIREBASE_MEASUREMENT_ID=your-firebase-measurement-id
 ```
 
- 4. Create a .env file in the project root of your backend and add your Firebase config:
-
-```
-PORT= your-local-port
-SMTP_HOST= your-smtp-host
-SMTP_PORT= your-smtp-port
-SMTP_USER= your-smtp-user
-SMTP_PASS= your-smtp-pass
-DATABASE_URL= your-database-url
-```
-
-### Usage
-
- 1. Run the development server for the frontend:
-
-```
-npm run dev
+### **Backend Environment Variables**
+Create a `.env` file in the backend root and add:
+```sh
+PORT=your-local-port
+SMTP_HOST=your-smtp-host
+SMTP_PORT=your-smtp-port
+SMTP_USER=your-smtp-user
+SMTP_PASS=your-smtp-pass
+DATABASE_URL=your-database-url
 ```
 
-2. To run development server for the backend:
+---
 
-```
-npm run start
-```
+## 📜 License
+This project is licensed under the **MIT License**. Feel free to use and contribute to it.
 
-## Key Highlights
-###Authentication
-
-
-## Tech Stack
-
-Eclyra is built using the following technologies:
-
-- **Vite React** : A modern frontend development stack that uses Vite as a fast build tool and React as the UI framework.
-
-- **Firebase** : A comprehensive platform for building web and mobile applications, including authentication and real-time database features.
-
-- **Tailwind** : A utility-first CSS framework for building modern designs.
-
-- **Firebase-Firestore** : Firebase Firestore is a cloud-based NoSQL database from Google, designed for real-time syncing and scalability.
-
-### Frontend
-
-- **Vite React** : Our frontend is primarily built with Vite + React, providing a dynamic and responsive user interface.
-
-- **Tailwind CSS** : Tailwind CSS is used for styling, enabling a streamlined and customizable design approach.
-
-- **Mantine UI** : Mantine UI is a modern React component library that provides beautiful, accessible, and customizable UI components for building fast and responsive web applications.
-
-- **Firebase Authentication** : Provides secure user authentication for Eclyra.
-
-### Backend
-
-- **Firebase-Firestore** : Firebase Firestore helps your backend by providing a scalable, real-time NoSQL database that simplifies data storage, retrieval, and synchronization.
-
-- **Node.js Express** : Node.js Express is a lightweight and fast web framework for Node.js. It provides easy routing, middleware support, and a flexible API to build RESTful services.
-
-### AI/Chat-Bot 
-
-- **Vertex AI and DialogFlow** : AI chatbot on Eclyra enhances user experience by guiding scrap sellers and collectors, answering queries instantly, assisting with pickups, and providing recycling insights.
-
-### APIs
-
-- **Google Maps api** : The Google Maps API helps Eclyra by enabling location-based services, such as accurate scrap pickup locations, route optimization for collectors, and real-time navigation.
-
-- **Gemini api** : Improve user interactions and streamline the scrap selling and collection process.
-
-### Additional Tools
-
-- **npm** : The package manager for JavaScript, used for installing and managing project dependencies.
-
-- **Git** : Version control system for tracking changes in the source code.
-
-- **Google Cloud** : For hosting our website, cloud storage, authentication, and Maps.
-
-## Development Environment
-
-To set up your development environment, refer to the Getting Started section.
-
-Thank you to the communities behind these technologies for making EcoBloom possible!
-
-## Licences
-
-
-
-
-
-
-
-
+Thank you to all open-source contributors and communities that make Eclyra possible! 🌱♻️
 
