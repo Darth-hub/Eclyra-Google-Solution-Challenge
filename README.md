@@ -150,5 +150,4 @@ The team noticed firsthand how individuals and small businesses struggled with s
 ## 📜 License
 This project is licensed under the **MIT License**. Feel free to use and contribute to it.
 
-Thank you to all open-source contributors and communities that make Eclyra possible! 🌱♻️
 
