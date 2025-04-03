@@ -137,13 +137,14 @@ DATABASE_URL=your-database-url
 
 ## 🤝 Contributors
 Eclyra wouldn't have been possible without the hard work and dedication of its team members:
-- **Ayush Ranjan** – Project Lead & ChatBot Interation & Frontend Developer
+- **Ayush Ranjan** – Project Lead & Chatbot Integration & Frontend Developer
 - **Rohit Khallar** – Backend & Database Architect
 - **Ayush Kumar** – Frontend Developer
 - **Tanisha Rattan** – UI/UX Designer
 
 ### **How We Came Up With This Idea**
-The team noticed firsthand how individuals and small businesses struggled with selling scrap, especially electronic waste, due to a lack of proper channels and fair pricing. Observing this issue in real life, we decided to create Eclyra—an AI-powered platform that simplifies scrap selling, ensures transparent pricing, and encourages responsible e-waste disposal. By integrating real-time pricing, chatbot assistance, and community engagement, Eclyra is set to revolutionize the waste management industry.
+The team noticed firsthand how individuals and small businesses struggled with selling scrap, especially electronic waste, due to a lack of proper channels and fair pricing. Seeing people discard valuable e-waste improperly, leading to both environmental hazards and financial loss, we decided to create Eclyra—an AI-powered platform that simplifies scrap selling, ensures transparent pricing, and encourages responsible e-waste disposal. By integrating real-time pricing, chatbot assistance, and community engagement, Eclyra is set to revolutionize the waste management industry.
+
 ---
 
 ## 📜 License
