@@ -35,7 +35,7 @@ The project is built using:
 
 ### **APIs**
 - **Google Maps API**: Enables accurate scrap pickup locations, route optimization, and real-time navigation.
-- **Gemini API**: Enhances chatbot interactions and user engagement.
+- **Gemini API**: Enhances user interactions and provide quick response to users with EclyraSearch.
 
 ### **Additional Tools**
 - **NPM**: Manages project dependencies.
