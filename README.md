@@ -137,7 +137,7 @@ DATABASE_URL=your-database-url
 
 ## 🤝 Contributors
 Eclyra wouldn't have been possible without the hard work and dedication of its team members:
-- **Ayush Ranjan** – Project Lead & Chatbot Integration & Frontend Developer
+- **Ayush Ranjan** – Chatbot Integration & Frontend Developer
 - **Rohit Khallar** – Backend & Database Architect
 - **Ayush Kumar** – Frontend Developer
 - **Tanisha Rattan** – UI/UX Designer
