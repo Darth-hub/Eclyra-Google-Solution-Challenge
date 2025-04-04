@@ -2,13 +2,23 @@
 
 Team Eclyra's project repository for the Google Solution Challenge 2025.
 
+## 📚 Contents
+- [🔗 Repository Links](#-repository-links)
+- [🌍 Overview](#-overview)
+- [🛠️ Tech Stack](#%ef%b8%8f-tech-stack)
+- [🔑 Key Features](#-key-features)
+- [🚀 Getting Started](#-getting-started)
+- [⚙️ Configuration](#%ef%b8%8f-configuration)
+- [🤝 Contributors](#-contributors)
+- [📜 License](#-license)
+
 ## 🔗 Repository Links
 - **Frontend Repository:** [Eclyra Frontend](https://github.com/simple2226/gsc_frontend)
 - **Backend Repository:** [Eclyra Backend](https://github.com/simple2226/gsc_backend)
 - **MVP Live Link:** [Eclyra](https://eclyra.netlify.app/)
 
 ## 🌍 Overview
-Eclyra is revolutionizing waste management by providing a sustainable and profitable platform for individuals and businesses. It bridges the gap between scrap sellers and collectors, ensuring recyclable materials contribute to a circular economy instead of being wasted. 
+Eclyra is revolutionizing waste management by providing a sustainable and profitable platform for individuals and businesses. It bridges the gap between scrap sellers and collectors, ensuring recyclable materials contribute to a circular economy instead of being wasted.
 
 The project is built using:
 - **ReactJS** for a dynamic frontend.
@@ -35,7 +45,7 @@ The project is built using:
 
 ### **APIs**
 - **Google Maps API**: Enables accurate scrap pickup locations, route optimization, and real-time navigation.
-- **Gemini API**: Enhances user interactions and provide quick response to users with EclyraSearch.
+- **Gemini API**: Enhances user interactions and provides quick responses to users with EclyraSearch.
 
 ### **Additional Tools**
 - **NPM**: Manages project dependencies.
@@ -149,5 +159,4 @@ The team noticed firsthand how individuals and small businesses struggled with s
 
 ## 📜 License
 This project is licensed under the **MIT License**. Feel free to use and contribute to it.
-
 
