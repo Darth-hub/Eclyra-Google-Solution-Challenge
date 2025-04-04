@@ -158,5 +158,5 @@ The team noticed firsthand how individuals and small businesses struggled with s
 ---
 
 ## 📜 License
-This project is licensed under the **MIT License**. Feel free to use and contribute to it.
+This project is licensed under the **MIT License**. See the LICENSE file for more details.
 
