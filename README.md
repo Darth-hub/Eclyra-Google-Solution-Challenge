@@ -2,6 +2,12 @@
 
 Team Eclyra's project repository for the Google Solution Challenge 2025.
 
+## 🔗 Repository Links
+- **Frontend Repository:** [Eclyra Frontend](https://github.com/simple2226/gsc_frontend)
+- **Backend Repository:** [Eclyra Backend](https://github.com/simple2226/gsc_backend)
+- **MVP Live Link:** [Eclyra](https://eclyra.netlify.app/)
+- **Figma File:** [Eclyra UI](https://www.figma.com/design/RGnIbFN625Kz1Rb8RJi6Wn/Untitled?node-id=0-1&p=f&t=Xu1BSRYK4loiQkEA-0)
+
 
 ## 🌍 Overview
 Eclyra is revolutionizing waste management by providing a sustainable and profitable platform for individuals and businesses. It bridges the gap between scrap sellers and collectors, ensuring recyclable materials contribute to a circular economy instead of being wasted.
@@ -13,11 +19,6 @@ The project is built using:
 - **Firestore** as the database.
 - **Vertex AI & Dialogflow CX** for AI-powered chatbot integration.
 
-## 🔗 Repository Links
-- **Frontend Repository:** [Eclyra Frontend](https://github.com/simple2226/gsc_frontend)
-- **Backend Repository:** [Eclyra Backend](https://github.com/simple2226/gsc_backend)
-- **MVP Live Link:** [Eclyra](https://eclyra.netlify.app/)
-- **Figma File:** [Eclyra UI](https://www.figma.com/design/RGnIbFN625Kz1Rb8RJi6Wn/Untitled?node-id=0-1&p=f&t=Xu1BSRYK4loiQkEA-0)
 
 ## 📚 Contents
 - [🛠️ Tech Stack](#%ef%b8%8f-tech-stack)
