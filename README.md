@@ -17,6 +17,7 @@ The project is built using:
 - **Frontend Repository:** [Eclyra Frontend](https://github.com/simple2226/gsc_frontend)
 - **Backend Repository:** [Eclyra Backend](https://github.com/simple2226/gsc_backend)
 - **MVP Live Link:** [Eclyra](https://eclyra.netlify.app/)
+- **Figma File:** [Eclyra UI](https://www.figma.com/design/RGnIbFN625Kz1Rb8RJi6Wn/Untitled?node-id=0-1&p=f&t=Xu1BSRYK4loiQkEA-0)
 
 ## 📚 Contents
 - [🛠️ Tech Stack](#%ef%b8%8f-tech-stack)
